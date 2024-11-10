@@ -1,0 +1,28 @@
+<DMFactorysetting>
+	<DMAcc count="1">
+		<Profile>
+			<Name>OMADM</Name>
+			<ServerID>OMADM</ServerID>
+			<ServerAuthName>OMADM</ServerAuthName>
+			<ServerPassword>mvpdm</ServerPassword>
+			<ServerAuthData></ServerAuthData>
+			<ServerAuthType>DIGEST</ServerAuthType>
+			<ServerAddress>http://dm.monternet.com</ServerAddress>
+			<Port>7001</Port>
+			<AuthPref>DIGEST</AuthPref>
+			<UserName>mvpdm</UserName>
+			<UserPassword>mvpdm</UserPassword>
+			<ClientAuthData></ClientAuthData>
+			<ClientAuthType>DIGEST</ClientAuthType>
+			<TrustedServer>yes</TrustedServer>
+			<AllowServerAlerts>yes</AllowServerAlerts>
+			<AllowBackgroundUIMode>yes</AllowBackgroundUIMode>
+			<AllowInformativeUIMode>yes</AllowInformativeUIMode>
+			<NAPID>1</NAPID>
+			<MasterProfile>yes</MasterProfile>
+			<Locked>yes</Locked>
+			<ReadOnly>yes</ReadOnly>
+			<Invisible>no</Invisible>
+		</Profile>
+	</DMAcc>
+</DMFactorysetting>

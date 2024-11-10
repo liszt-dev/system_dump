@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MgmtTree xmlns:MSFT="http://schemas.microsoft.com/MobileDevice/DM">
+  <VerDTD>1.2</VerDTD>
+  <Node>
+    <NodeName>DevInfo</NodeName>
+    <DFProperties>
+      <AccessType>
+        <Get />
+      </AccessType>
+      <DFFormat>
+        <node />
+      </DFFormat>
+      <Occurrence>
+        <One />
+      </Occurrence>
+      <Scope>
+        <Permanent />
+      </Scope>
+      <CaseSense>
+        <CS />
+      </CaseSense>
+      <DFType>
+        <MIME>urn:oma:mo:oma-dm-devinfo:1.0</MIME>
+      </DFType>
+      <Description></Description>
+    </DFProperties>
+    <Node>
+      <NodeName>Lang</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+        <Description>Language Information</Description>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>DmV</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+        <Description>DM Version Information</Description>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>Mod</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+        <Description>Model identifier</Description>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>Man</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+        <Description>Manufacturer Information</Description>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>DevId</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+        <Description>Device ID</Description>
+      </DFProperties>
+    </Node>
+  </Node>
+</MgmtTree>

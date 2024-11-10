@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MgmtTree xmlns:MSFT="http://schemas.microsoft.com/MobileDevice/DM">
+  <VerDTD>1.2</VerDTD>
+  <Node>
+    <NodeName>AGPS</NodeName>
+    <DFProperties>
+      <AccessType>
+        <Get />
+      </AccessType>
+      <DFFormat>
+        <node />
+      </DFFormat>
+      <Occurrence>
+        <One />
+      </Occurrence>
+      <Scope>
+        <Permanent />
+      </Scope>
+      <CaseSense>
+        <CS />
+      </CaseSense>
+    </DFProperties>
+    <Node>
+      <NodeName>ProviderIP</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Description></Description>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>ConnProfile</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Description></Description>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>AGPSServer</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <Description></Description>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+  </Node>
+</MgmtTree>

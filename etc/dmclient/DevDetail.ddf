@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MgmtTree xmlns:MSFT="http://schemas.microsoft.com/MobileDevice/DM">
+  <VerDTD>1.2</VerDTD>
+  <Node>
+    <NodeName>DevDetail</NodeName>
+    <DFProperties>
+      <AccessType>
+        <Get />
+      </AccessType>
+      <DFFormat>
+        <node />
+      </DFFormat>
+      <Occurrence>
+        <One />
+      </Occurrence>
+      <Scope>
+        <Permanent />
+      </Scope>
+      <CaseSense>
+        <CS />
+      </CaseSense>
+      <DFTitle>DevDetail</DFTitle>
+      <Description>DevDetail Node</Description>
+    </DFProperties>
+    <Node>
+      <NodeName>URI</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DFFormat>
+          <node />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <Description></Description>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+      <Node>
+	      <NodeName>MaxDepth</NodeName>
+	      <DFProperties>
+	        <AccessType>
+	          <Get />
+	        </AccessType>
+	        <DFFormat>
+	          <int />
+	        </DFFormat>
+	        <Occurrence>
+	          <One />
+	        </Occurrence>
+	        <Scope>
+	          <Permanent />
+	        </Scope>
+	        <DFType>
+		  <MIME>text/plain</MIME>
+		</DFType>
+	        <Description></Description>
+	        <CaseSense>
+	          <CS />
+	        </CaseSense>
+	      </DFProperties>
+      </Node>
+      <Node>
+	      <NodeName>MaxTotLen</NodeName>
+	      <DFProperties>
+		<AccessType>
+	          <Get />
+		</AccessType>
+		<DFFormat>
+		  <int />
+		</DFFormat>
+		<Occurrence>
+		  <One />
+		</Occurrence>
+		<Scope>
+		  <Permanent />
+		</Scope>
+		<DFType>
+		  <MIME>text/plain</MIME>
+		</DFType>
+		<Description></Description>
+		<CaseSense>
+		  <CS />
+		</CaseSense>
+	      </DFProperties>      
+    	</Node>
+    	<Node>
+	      <NodeName>MaxSegLen</NodeName>
+	      <DFProperties>
+		<AccessType>
+		  <Get />
+		</AccessType>
+		<DFFormat>
+		  <int />
+		</DFFormat>
+		<Occurrence>
+		  <One />
+		</Occurrence>
+		<Scope>
+		  <Permanent />
+		</Scope>
+		<DFType>
+		  <MIME>text/plain</MIME>
+		</DFType>
+		<Description></Description>
+		<CaseSense>
+		  <CS />
+		</CaseSense>
+	      </DFProperties>      
+    	</Node>
+     </Node>
+     <Node>
+	 <NodeName>DevTyp</NodeName>
+	 <DFProperties>
+	   <AccessType>
+	     <Get />
+	   </AccessType>
+	   <DFFormat>
+	     <chr />
+	   </DFFormat>
+	   <Occurrence>
+	     <One />
+	   </Occurrence>
+	   <Scope>
+	     <Permanent />
+           </Scope>
+           <DFType>
+   	     <MIME>text/plain</MIME>
+  	   </DFType>
+	   <Description></Description>
+	   <CaseSense>
+	     <CS />
+	   </CaseSense>
+	 </DFProperties>      
+     </Node>
+     <Node>
+	 <NodeName>OEM</NodeName>
+	 <DFProperties>
+	   <AccessType>
+	     <Get />
+	   </AccessType>
+	   <DFFormat>
+	     <chr />
+	   </DFFormat>
+	   <Occurrence>
+	     <One />
+	   </Occurrence>
+	   <Scope>
+	     <Permanent />
+           </Scope>
+           <DFType>
+   	     <MIME>text/plain</MIME>
+  	   </DFType>
+	   <Description></Description>
+	   <CaseSense>
+	     <CS />
+	   </CaseSense>
+	 </DFProperties>      
+     </Node>
+     <Node>
+	 <NodeName>FwV</NodeName>
+	 <DFProperties>
+	   <AccessType>
+	     <Get />
+	   </AccessType>
+	   <DFFormat>
+	     <chr />
+	   </DFFormat>
+	   <Occurrence>
+	     <One />
+	   </Occurrence>
+	   <Scope>
+	     <Permanent />
+           </Scope>
+           <DFType>
+   	     <MIME>text/plain</MIME>
+  	   </DFType>
+	   <Description></Description>
+	   <CaseSense>
+	     <CS />
+	   </CaseSense>
+	 </DFProperties>      
+     </Node>
+     <Node>
+	 <NodeName>SwV</NodeName>
+	 <DFProperties>
+	   <AccessType>
+	     <Get />
+	   </AccessType>
+	   <DFFormat>
+	     <chr />
+	   </DFFormat>
+	   <Occurrence>
+	     <One />
+	   </Occurrence>
+	   <Scope>
+	     <Permanent />
+           </Scope>
+           <DFType>
+   	     <MIME>text/plain</MIME>
+  	   </DFType>
+	   <Description></Description>
+	   <CaseSense>
+	     <CS />
+	   </CaseSense>
+	 </DFProperties>      
+     </Node>          
+     <Node>
+	 <NodeName>HwV</NodeName>
+	 <DFProperties>
+	   <AccessType>
+	     <Get />
+	   </AccessType>
+	   <DFFormat>
+	     <chr />
+	   </DFFormat>
+	   <Occurrence>
+	     <One />
+	   </Occurrence>
+	   <Scope>
+	     <Permanent />
+           </Scope>
+           <DFType>
+   	     <MIME>text/plain</MIME>
+  	   </DFType>
+	   <Description></Description>
+	   <CaseSense>
+	     <CS />
+	   </CaseSense>
+	 </DFProperties>      
+     </Node>    
+     <Node>
+	 <NodeName>LrgObj</NodeName>
+	 <DFProperties>
+	   <AccessType>
+	     <Get />
+	   </AccessType>
+	   <DFFormat>
+	     <bool />
+	   </DFFormat>
+	   <Occurrence>
+	     <One />
+	   </Occurrence>
+	   <Scope>
+	     <Permanent />
+           </Scope>
+           <DFType>
+   	     <MIME>text/plain</MIME>
+  	   </DFType>
+	   <Description></Description>
+	   <CaseSense>
+	     <CS />
+	   </CaseSense>
+	 </DFProperties>      
+     </Node>      
+  </Node>
+</MgmtTree>

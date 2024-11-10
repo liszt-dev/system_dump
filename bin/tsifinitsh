@@ -1,0 +1,21 @@
+    chown system:system /dev/mmtuner
+    chmod 0660 /dev/mmtuner
+    chown system:system /dev/tsif0
+    chmod 0660 /dev/tsif0
+
+    mkdir /data/emm
+    mkdir /data/tuner_conf
+    cp -r /system/vendor/etc/tuner_conf /data/
+    cp -r /system/vendor/etc/emm /data/
+
+    chown system:system /data/emm
+    chmod 770 /data/emm
+    chown system:system /data/emm/*
+    chmod 770 /data/emm/*
+
+    chmod 770 /data/tuner_conf
+    chown system:system /data/tuner_conf
+    chmod 770 /data/tuner_conf/*
+    chown system:system /data/tuner_conf/*
+    chmod 770 /data/tuner_conf/fw/*
+    chown system:system /data/tuner_conf/fw/*

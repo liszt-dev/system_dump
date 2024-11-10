@@ -1,0 +1,6 @@
+<ConfigParams>
+<RetryCount>5</RetryCount>
+<RetryTime>60</RetryTime>
+<SessionDefaultRetryTime>60</SessionDefaultRetryTime>
+<MaxUpdatePostpone>60</MaxUpdatePostpone>
+</ConfigParams>

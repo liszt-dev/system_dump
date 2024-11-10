@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MgmtTree xmlns:MSFT="http://schemas.microsoft.com/MobileDevice/DM">
+  <VerDTD>1.2</VerDTD>
+  <Node>
+    <NodeName>GPRS</NodeName>
+    <DFProperties>
+      <AccessType>
+        <Get />
+      </AccessType>
+      <DFFormat>
+        <node />
+      </DFFormat>
+      <Occurrence>
+        <One />
+      </Occurrence>
+      <Scope>
+        <Permanent />
+      </Scope>
+      <CaseSense>
+        <CS />
+      </CaseSense>
+    </DFProperties>
+    <Node>
+      <NodeName>CMNet</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DFFormat>
+            <node />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+          <Description></Description>
+        </DFProperties>
+      <Node>
+        <NodeName>APN</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>UserName</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>PassWord</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>ProxyAddr</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>ProxyPortNbr</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+    </Node>
+    <Node>
+      <NodeName>CMWap</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DFFormat>
+            <node />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+          <Description></Description>
+        </DFProperties>
+      <Node>
+        <NodeName>APN</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>UserName</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>PassWord</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>ProxyAddr</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>ProxyPortNbr</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+            <Replace />
+          </AccessType>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <Description></Description>
+          <CaseSense>
+            <CS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+    </Node>
+  </Node>
+</MgmtTree>

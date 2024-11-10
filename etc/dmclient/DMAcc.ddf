@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MgmtTree xmlns:MSFT="http://schemas.microsoft.com/MobileDevice/DM">
+  <VerDTD>1.2</VerDTD>
+  <Node>
+    <NodeName>DMAcc</NodeName>
+    <DFProperties>
+      <AccessType>
+        <Get />
+      </AccessType>
+      <DefaultValue />
+      <Description></Description>
+      <DFFormat>
+        <node />
+      </DFFormat>
+      <Occurrence>
+        <One />
+      </Occurrence>
+      <Scope>
+        <Permanent />
+      </Scope>
+      <DFTitle />
+      <DFType>
+        <MIME>org.openmobilealliance/1.0/DMAcc</MIME>
+      </DFType>
+      <CaseSense>
+        <CIS />
+      </CaseSense>
+    </DFProperties>
+    <Node>
+      <NodeName></NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+        </AccessType>
+        <DefaultValue />
+        <Description></Description>
+        <DFFormat>
+          <node />
+        </DFFormat>
+        <Occurrence>
+          <OneOrMore />
+        </Occurrence>
+        <Scope>
+          <Dynamic />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME />
+        </DFType>
+        <CaseSense>
+          <CIS />
+        </CaseSense>
+      </DFProperties>
+      <Node>
+        <NodeName>AppID</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue>w7</DefaultValue>
+          <Description></Description>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>ServerID</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue />
+          <Description></Description>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>Name</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue />
+          <Description></Description>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <ZeroOrOne />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>PrefConRef</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue />
+          <Description></Description>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <ZeroOrOne />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>AppAddr</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue />
+          <Description></Description>
+          <DFFormat>
+            <node />
+          </DFFormat>
+          <Occurrence>
+            <One />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME />
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+        <Node>
+          <NodeName></NodeName>
+          <DFProperties>
+            <AccessType>
+              <Get />
+            </AccessType>
+            <DefaultValue />
+            <Description></Description>
+            <DFFormat>
+              <node />
+            </DFFormat>
+            <Occurrence>
+              <OneOrMore />
+            </Occurrence>
+            <Scope>
+              <Dynamic />
+            </Scope>
+            <DFTitle />
+            <DFType>
+              <MIME />
+            </DFType>
+            <CaseSense>
+              <CIS />
+            </CaseSense>
+          </DFProperties>
+          <Node>
+            <NodeName>Addr</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <One />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AddrType</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <One />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>Port</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <node />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME />
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+            <Node>
+              <NodeName></NodeName>
+              <DFProperties>
+                <AccessType>
+                  <Get />
+                </AccessType>
+                <DefaultValue />
+                <Description></Description>
+                <DFFormat>
+                  <node />
+                </DFFormat>
+                <Occurrence>
+                  <OneOrMore />
+                </Occurrence>
+                <Scope>
+                  <Dynamic />
+                </Scope>
+                <DFTitle />
+                <DFType>
+                  <MIME />
+                </DFType>
+                <CaseSense>
+                  <CIS />
+                </CaseSense>
+              </DFProperties>
+              <Node>
+                <NodeName>PortNbr</NodeName>
+                <DFProperties>
+                  <AccessType>
+                    <Get />
+                  </AccessType>
+                  <DefaultValue>80</DefaultValue>
+                  <Description></Description>
+                  <DFFormat>
+                    <int />
+                  </DFFormat>
+                  <Occurrence>
+                    <One />
+                  </Occurrence>
+                  <Scope>
+                    <Permanent />
+                  </Scope>
+                  <DFTitle />
+                  <DFType>
+                    <MIME>text/plain</MIME>
+                  </DFType>
+                  <CaseSense>
+                    <CIS />
+                  </CaseSense>
+                </DFProperties>
+              </Node>
+            </Node>
+          </Node>
+        </Node>
+      </Node>
+      <Node>
+        <NodeName>AAuthPref</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue />
+          <Description></Description>
+          <DFFormat>
+            <chr />
+          </DFFormat>
+          <Occurrence>
+            <ZeroOrOne />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME>text/plain</MIME>
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+      </Node>
+      <Node>
+        <NodeName>AppAuth</NodeName>
+        <DFProperties>
+          <AccessType>
+            <Get />
+          </AccessType>
+          <DefaultValue />
+          <Description></Description>
+          <DFFormat>
+            <node />
+          </DFFormat>
+          <Occurrence>
+            <ZeroOrOne />
+          </Occurrence>
+          <Scope>
+            <Permanent />
+          </Scope>
+          <DFTitle />
+          <DFType>
+            <MIME />
+          </DFType>
+          <CaseSense>
+            <CIS />
+          </CaseSense>
+        </DFProperties>
+        <Node>
+          <NodeName>clientAuth</NodeName>
+          <DFProperties>
+            <AccessType>
+              <Get />
+            </AccessType>
+            <DefaultValue />
+            <Description></Description>
+            <DFFormat>
+              <node />
+            </DFFormat>
+            <Occurrence>
+              <OneOrMore />
+            </Occurrence>
+            <Scope>
+              <Dynamic />
+            </Scope>
+            <DFTitle />
+            <DFType>
+              <MIME />
+            </DFType>
+            <CaseSense>
+              <CIS />
+            </CaseSense>
+          </DFProperties>
+          <Node>
+            <NodeName>AAuthLevel</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <One />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthType</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <One />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthName</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthSecret</NodeName>
+            <DFProperties>
+              <AccessType>
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthData</NodeName>
+            <DFProperties>
+              <AccessType>
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+        </Node>
+        <Node>
+          <NodeName>serverAuth</NodeName>
+          <DFProperties>
+            <AccessType>
+              <Get />
+            </AccessType>
+            <DefaultValue />
+            <Description></Description>
+            <DFFormat>
+              <node />
+            </DFFormat>
+            <Occurrence>
+              <OneOrMore />
+            </Occurrence>
+            <Scope>
+              <Dynamic />
+            </Scope>
+            <DFTitle />
+            <DFType>
+              <MIME />
+            </DFType>
+            <CaseSense>
+              <CIS />
+            </CaseSense>
+          </DFProperties>
+          <Node>
+            <NodeName>AAuthLevel</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <One />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthType</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <One />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthName</NodeName>
+            <DFProperties>
+              <AccessType>
+                <Get />
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthSecret</NodeName>
+            <DFProperties>
+              <AccessType>
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+          <Node>
+            <NodeName>AAuthData</NodeName>
+            <DFProperties>
+              <AccessType>
+              </AccessType>
+              <DefaultValue />
+              <Description></Description>
+              <DFFormat>
+                <chr />
+              </DFFormat>
+              <Occurrence>
+                <ZeroOrOne />
+              </Occurrence>
+              <Scope>
+                <Permanent />
+              </Scope>
+              <DFTitle />
+              <DFType>
+                <MIME>text/plain</MIME>
+              </DFType>
+              <CaseSense>
+                <CIS />
+              </CaseSense>
+            </DFProperties>
+          </Node>
+        </Node>
+      </Node>
+    </Node>
+  </Node>
+</MgmtTree>

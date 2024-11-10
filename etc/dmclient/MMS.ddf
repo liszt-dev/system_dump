@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MgmtTree>
+  <VerDTD>1.2</VerDTD>
+  <Node>
+    <NodeName>MMS</NodeName>
+    <DFProperties>
+      <AccessType>
+        <Get />
+      </AccessType>
+      <DefaultValue></DefaultValue>
+      <Description>Nonsecured</Description>
+      <DFFormat>
+        <node />
+      </DFFormat>
+      <Occurrence>
+        <One />
+      </Occurrence>
+      <Scope>
+        <Permanent />
+      </Scope>
+      <DFTitle />
+      <DFType>
+        <MIME></MIME>
+      </DFType>
+      <CaseSense>
+        <CS />
+      </CaseSense>
+    </DFProperties>
+    <Node>
+      <NodeName>MMSC</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DefaultValue>http://mmsc.monternet.com</DefaultValue>
+        <Description>Nonsecured</Description>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>APN</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DefaultValue></DefaultValue>
+        <Description>Nonsecured</Description>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>UserName</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DefaultValue></DefaultValue>
+        <Description>Nonsecured</Description>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>PassWord</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DefaultValue></DefaultValue>
+        <Description>Nonsecured</Description>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>ProxyAddr</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DefaultValue></DefaultValue>
+        <Description>Nonsecured</Description>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+    <Node>
+      <NodeName>ProxyPort</NodeName>
+      <DFProperties>
+        <AccessType>
+          <Get />
+          <Replace />
+        </AccessType>
+        <DefaultValue></DefaultValue>
+        <Description>Nonsecured</Description>
+        <DFFormat>
+          <chr />
+        </DFFormat>
+        <Occurrence>
+          <One />
+        </Occurrence>
+        <Scope>
+          <Permanent />
+        </Scope>
+        <DFTitle />
+        <DFType>
+          <MIME>text/plain</MIME>
+        </DFType>
+        <CaseSense>
+          <CS />
+        </CaseSense>
+      </DFProperties>
+    </Node>
+  </Node>
+</MgmtTree>

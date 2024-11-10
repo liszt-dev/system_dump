@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <Control>
+        <CTRL_DoSharpness>1</CTRL_DoSharpness>
+        <CTRL_DoAce>0</CTRL_DoAce>
+        <CTRL_DoSr>1</CTRL_DoSr>
+    </Control>
+
+    <ContrastEnhancement>
+        <ACE_DarkNR>0</ACE_DarkNR>
+        <ACE_GammaGain>40</ACE_GammaGain>
+        <ACE_WeightWhite>12</ACE_WeightWhite>
+        <ACE_WeightBlack>16</ACE_WeightBlack>
+        <ACE_DivideX>6</ACE_DivideX>
+        <ACE_DivideY>6</ACE_DivideY>
+    </ContrastEnhancement>
+
+    <Sharpness>
+        <!-- MIN(UHD Ratio>0)-->
+        <SHP_LTI>2.0</SHP_LTI>
+        <SHP_SHP>1.7</SHP_SHP>
+        <SHP_CTI>4</SHP_CTI>
+        <SHP_Coring>1</SHP_Coring>
+        <SHP_LTIThreshold>70</SHP_LTIThreshold>
+        <SHP_SHPThreshold>35</SHP_SHPThreshold>
+        <SHP_MaxMinDiffThreshold>5</SHP_MaxMinDiffThreshold>
+    <!-- MAX(Ratio<=4)-->
+        <SHP_LTI_1>2.2</SHP_LTI_1>
+        <SHP_SHP_1>2.0</SHP_SHP_1>
+        <SHP_CTI_1>4</SHP_CTI_1>
+        <SHP_Coring_1>1</SHP_Coring_1>
+        <SHP_LTIThreshold_1>70</SHP_LTIThreshold_1>
+        <SHP_SHPThreshold_1>40</SHP_SHPThreshold_1>
+        <SHP_MaxMinDiffThreshold_1>5</SHP_MaxMinDiffThreshold_1>
+    </Sharpness>
+    <SuperResolution>
+        <SR_Width>1920</SR_Width>
+        <SR_Height>1080</SR_Height>
+        <SR_Iter>10</SR_Iter>
+        <SR_Ka>0.5</SR_Ka>
+        <SR_Kernal>3</SR_Kernal>
+        <SR_Alpha>0.4</SR_Alpha>
+        <SR_PsfSigma>0.0</SR_PsfSigma>
+    </SuperResolution>
+</Config>
